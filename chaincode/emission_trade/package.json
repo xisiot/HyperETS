@@ -1,0 +1,23 @@
+{
+	"name": "emission-trade",
+	"version": "1.0.0",
+	"description": "emission-trade chaincode implemented in node.js",
+	"engines": {
+		"node": ">=8.4.0",
+		"npm": ">=5.3.0"
+	},
+	"scripts": {
+		"start": "node emission_trade.js",
+		"preinstall": "tar -xvf node_modules.tar.gz"
+	},
+	"config": {
+		"unsafe-perm": true
+	},
+	"engine-strict": true,
+	"license": "Apache-2.0",
+	"dependencies": {
+		"fabric-shim": "unstable",
+		"lodash": "^4.17.10",
+		"uuid": "^3.3.2"
+	}
+}

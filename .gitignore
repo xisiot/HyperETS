@@ -1,0 +1,6 @@
+node_modules
+chaincode/emission_trade/hyperledger
+package-lock.json
+organization/envAgency/hfc-key-store
+organization/tradingCenter/hfc-key-store
+test_network
