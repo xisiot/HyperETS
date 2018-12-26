@@ -5,7 +5,9 @@ This is the source code of the emission trading system that mentioned in the pap
 To setup this system, please make sure your server has the [hyperledger fabric environment](https://hyperledger-fabric.readthedocs.io/en/latest/prereqs.html). 
 ### Getting Started
 - Run ***npm install*** at the home directory
-- Go to *chaincode/emission_trade* directory and run ***npm install***
+- Go to *chaincode/emission_trade* directory and comment "preinstall" in *package.json*
+- Run ***npm install***
+- Uncomment "preinsatll"
 - Run ***tar -cvf node_modules.tar.gz node_modules/***
 - Run ***rm -rf node_modules/***
 - Run ***./network/start.sh*** to start the hyperledger fabric network
